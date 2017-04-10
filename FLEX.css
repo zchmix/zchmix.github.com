@@ -1,0 +1,142 @@
+.ui-main{
+	
+	height: 560px;
+	width:  760px;
+	border:20px solid gray;
+	background: gray;
+	
+}
+.ui-header{
+	display: flex;
+	background:	#02DF82;
+	width: 760px;
+	height: 120px;
+	/*justify-content: space-between;*/
+}
+.ui-header-item-1{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80px;
+    height: 80px;
+    background:yellow;
+}
+.ui-header-item-2{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+    width: 80px;
+    height: 80px;
+	background: blue;
+}
+.ui-header-item-3{
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80px;
+    height: 80px;
+	background: green;
+}
+.ui-header-item-4{
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80px;
+    height: 80px;
+	background:blue;
+}
+.ui-header-item-5{
+	
+	margin-left:240px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80px;
+    height: 80px;
+	background: yellow;
+}
+.ui-body{
+	background: red;
+	width: 760px;
+	height: 420px;
+}
+.ui-leftbody{
+	display: flex;
+	margin-top:20px; 
+	background: #02DF82;
+	height:420px;
+	width: 380px;
+	/*flex-direction: column;*/
+}
+.ui-lbody-bigitem{
+
+	margin-top: 20px;
+	margin-left: 20px;
+	background: blue;
+	width: 200px;
+	height: 300px;
+	justify-content: center;
+}
+.ui-lbody-sitem-1{
+    align-items: stretch;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: gray;
+	width: 50px;
+	height: 50px;
+}
+.ui-lbody-sitem-2{
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	background: gray;
+	width: 50px;
+	height: 50px;
+}
+.ui-lbody-sitem-3{
+	margin-top: 20px;
+	margin-left: 20px;
+	background: gray;
+	width: 50px;
+	height: 50px;
+}
+.ui-rightbody{
+	display: flex;
+	margin-top:20px; 
+	background: #02DF82;
+	height:420px;
+	width: 380px;
+}
+.ui-rbody-item-1{
+   
+   background: blue;
+   height: 40px;
+   width: 480px;
+   margin-left: :20px;
+   margin-top: 20px;
+}
+/*.ui-body-item-2{
+  
+   background: green;
+
+}
+.ui-body-item-3{
+   
+   background: yellow;
+}
+.ui-body-item-4{
+   
+   background:red;
+}
+.ui-body-item-5{
+   
+   background: yellow;
+}
+.ui-body-item-6{
+   
+   background: blue;
+}
+.ui-body-item-7{
+   
+   background: green;
+}*/
