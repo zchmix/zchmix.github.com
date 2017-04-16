@@ -11,71 +11,81 @@
 	background:	#02DF82;
 	width: 760px;
 	height: 120px;
-	/*justify-content: space-between;*/
+	justify-content: flex-start;
 }
 .ui-header-item-1{
 	margin-left: 20px;
 	margin-top: 20px;
+	
 	margin-bottom: 20px;
 	width: 80px;
     height: 80px;
-    background:yellow;
+    background:gray;
 }
 .ui-header-item-2{
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-top: 20px;
+	
 	margin-bottom: 20px;
 	
     width: 80px;
     height: 80px;
-	background: blue;
+	background: gray;
 }
 .ui-header-item-3{
-	margin-left: 30px;
+	margin-left: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 80px;
     height: 80px;
-	background: green;
+	background: gray;
 }
 .ui-header-item-4{
-	margin-left: 30px;
+	margin-left: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 80px;
     height: 80px;
-	background:blue;
+	background:gray;
 }
 .ui-header-item-5{
 	
-	margin-left:240px;
+	margin-left:200px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-right: 20px; 
 	width: 80px;
     height: 80px;
-	background: yellow;
+	background: gray;
 }
 .ui-body{
-	background: red;
+display: flex;
 	width: 760px;
 	height: 420px;
+
 }
 .ui-leftbody{
 	display: flex;
 	margin-top:20px; 
 	background: #02DF82;
 	height:420px;
-	width: 380px;
-	/*flex-direction: column;*/
+	width: 260px;
+	flex-direction: column;
 }
 .ui-lbody-bigitem{
 
 	margin-top: 20px;
 	margin-left: 20px;
-	background: blue;
+	background: gray;
 	width: 200px;
 	height: 300px;
 	justify-content: center;
+}
+.ui-lbody-sitem{
+	display: flex;
+
+	height:100px;
+	width: 380px;
 }
 .ui-lbody-sitem-1{
     align-items: stretch;
@@ -88,55 +98,249 @@
 .ui-lbody-sitem-2{
 	
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 25px;
 	background: gray;
 	width: 50px;
 	height: 50px;
 }
 .ui-lbody-sitem-3{
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 25px;
 	background: gray;
 	width: 50px;
 	height: 50px;
 }
 .ui-rightbody{
+	
 	display: flex;
 	margin-top:20px; 
 	background: #02DF82;
 	height:420px;
-	width: 380px;
+	width: 500px;
+	flex-direction: column;
+	align-items: stretch;
 }
 .ui-rbody-item-1{
    
-   background: blue;
+   background: gray;
    height: 40px;
    width: 480px;
    margin-left: :20px;
    margin-top: 20px;
 }
-/*.ui-body-item-2{
+.ui-rbody-item-2{
   
-   background: green;
+   background: gray;
+   height: 40px;
+   width: 480px;
+   margin-left: :20px;
+   margin-top: 15px;
+}
+.ui-rbody-item-3{
+   
+   background: gray;
+   height: 40px;
+   width: 480px;
+   margin-left: :20px;
+   margin-top: 15px;
+}
+.ui-rbody-item-4{
+   
+   background:gray;
+   height: 40px;
+   width: 480px;
+   margin-left: :20px;
+   margin-top: 15px;
+}
+.ui-rbody-item-5{
+   
+   background: gray;
+   height: 40px;
+   width: 480px;
+   margin-left: :20px;
+   margin-top: 15px;
+}
+.ui-rbody-item-6{
+   
+   background:gray;
+   height: 40px;
+   width: 480px;
+   margin-left: :20px;
+   margin-top: 15px;
+}
+.ui-rbody-item-7{
+   
+   background:gray;
+   height: 40px;
+   width: 480px;
+   margin-left: :20px;
+   margin-top: 15px;
+}
+
+
+
+
+.second{
+    width: 390px;
+    height: 370px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: flex-end;
+}
+.filler{
+    width: 390px;
+    height: 110px;
+    padding: 10px;
+    background-color: #ffe6f4;
+    border-top: 1px solid #000000;
+}
+.tit-text{
+    width: 360px;
+    height: 16px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+}
+.inf{
+    width: 360px;
+    height: 16px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+}
+.price-sale{
+    width: 366px;
+    height: 30px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}  
+.price-sale span{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-top: 8px;
+}
+.real-price{
+	margin: 0;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+}
+.ori-price{
+    display: inline-block;
+    font-size: xx-small;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #74787c;
+}
+.sold{
+    display: inline-block;
+    float: right;
+    margin-top: 9px;
+    margin-right: 8px;
+    font-size: xx-small;
+    font-weight: bold;
+    color: #74787c;
+} 
+.shop-windows{
+    width: 1100px;
+    height: 700px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    border: 1px solid #000000;
+    background-color: #F2F2F2;
+}
+.window{
+    width: 360px;
+    height: 340px;
+    background-color: #ffffff;
+    border: 1px solid #F2F2F2;
+}
+.empty{
+    width: 360px;
+    height: 260px;
+}
+.window-filler{
+    width: 350px;
+    height: 60px;
+    padding: 5px;
+    padding-right: 0;
+    background-color: #ffffff;
+}
+.window-title{
+    width: 340px;
+    height: 8px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 6px;
+    background-color: #ffffff;
+}
+.winow-inf{
+    width: 340px;
+    height: 8px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 6px;
+}
+.winow-inf span{
+    color: #74787c;
+    font-weight: normal;
 
 }
-.ui-body-item-3{
-   
-   background: yellow;
+.winow-price-sale{
+    width: 350px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #f72b53;
 }
-.ui-body-item-4{
-   
-   background:red;
+.winow-price-sale span{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-top: 8px;
 }
-.ui-body-item-5{
-   
-   background: yellow;
+.window-realprice{
+    display: inline-block;
+    margin: 0;
+    font-size: x-large;
+    font-weight: bold;
 }
-.ui-body-item-6{
-   
-   background: blue;
+.window-oriprice{
+    display: inline-block;
+    font-size: xx-small;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #74787c;
 }
-.ui-body-item-7{
-   
-   background: green;
-}*/
+.window-sold{
+    display: inline-block;
+    font-size: xx-small;
+    font-weight: bold;
+    float: right;
+    margin-top: 3px;
+    margin-right: 0;
+    color: #74787c;
+}
+.window-sold span{
+    color: #f72b53;
+    font-size: 12px;
+}
