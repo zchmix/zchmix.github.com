@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-21 08:11:34
+ * @version $Id$
+ */
+.head{
+	margin-bottom: 3px;
+	width: 680px;
+	height: 90px;
+	
+	display: flex;
+	flex-direction: column;
+}
+.head-title{
+	width: 200px;
+	height: 23px;
+   display: flex;
+}
+.head-title-path{
+	width: 77px;
+	height: 23px;
+    border-radius: 3px;
+	background-color: #1e8ac6;
+	text-align: center;
+}
+.head-title-time {
+    margin-left: 5px;
+    width: 18px;
+    height: 18px;
+    color: white;
+    line-height: 19px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 3px;
+    background:#FC7D18;
+}
+.head-information{
+	width: 680px;
+	height: 50px;
+	background-color: #f7f8f8;
+	border:1px solid lightgrey ;
+	border-top:3px solid #1e8ac6;
+	display: flex;
+	flex-direction: column;
+}
+.head-information-r1{
+	width: 680px;
+	height: 25px;
+	display: flex;
+}
+.head-information-r1-time{
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #cf0000;
+}
+
+.head-information-r1-cost{
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #cf0000;
+}
+.head-information-r1-cost:before{
+	content: "総額         ";
+	font-size: 14px;
+   font-weight: normal;
+	color: #000000;
+}
+.head-information-r2{
+	width: 680px;
+	height: 25px;
+	display: flex;
+	font-weight: bold;
+	color: #cf0000;
+}
+.head-information-r2-totaltime:before{
+	margin-left: 10px;
+   content: "所要时间  ";
+   font-size: 14px;
+   font-weight: normal;
+color: #000000;
+}
+.head-information-r2-time{
+color: #000000;
+}
+.head-information-r2-time:before{
+   margin-left: 20px;
+   content: "乘车时间 ";
+   font-size: 14px;
+   font-weight: normal;
+    color: #000000;
+}
+.head-information-r2-transfer:before{
+	margin-left: 20px;
+   content: "乘换  ";
+   font-size: 14px;
+   font-weight: normal;
+  color: #000000;
+}
+.head-information-r2-distance{
+	color: #000000;
+}
+.head-information-r2-distance:before{
+	margin-left: 20px;
+   content: "距离  ";
+   font-size: 14px;
+   font-weight: normal;
+  color: #000000;
+}
+.head-button{
+	margin-bottom: 3px;
+	width: 680px;
+	height: 23px;
+	background-color: #fffbde;
+	display: flex;
+	justify-content: flex-end;
+}
+.body{
+	width: 680px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.body-title{
+	width: 680px;
+	height:15px;
+	background-color: #cedce8;
+	display: flex;
+
+}
+.body-station{
+ align-items: center;
+	width: 680px;
+	height: 40px;
+	background-color: #f2f2f2;
+	border:1px solid lightgrey ;
+	display: flex;
+}
+.body-station-name{
+	margin-left: 68px;
+display: flex;
+width: 328px;
+height: 30px;
+align-items: center;
+font-weight: bold;
+}
+.body-station-name-cloud{
+	
+	width: 25px;
+	height: 25px;
+}
+.body-station-name-square{
+	border-right:10px;
+	
+	width: 12px;
+    height: 12px;
+    background: linear-gradient(#4AB9E8 0, #1F93Df 50%, #0D7DD0 51%, #26A0D9 100%);
+    border: 1px solid white;
+}.body-station-position{
+	font-size: 13px;
+}
+.body-station-information{
+	justify-content: flex-end;
+	display: flex;
+	margin-left: 45px;
+	height: 15px;
+	width: 170px;
+	font-size: 10px;
+}
+.body-path{
+	width: 680px;
+	height: 42px;
+	display: flex;
+
+
+}.body-path-item{
+	font-size: 15px;
+  justify-content: space-around;
+	text-align: center;
+	
+	display: flex;
+	border-left: 1px solid #cdcdcd;
+
+}
+.body-path-item-time{
+	text-align: center;
+	font-weight: bold;
+	height: 42px;
+	width: 25%;
+}
+.body-path-item-line{
+    border-left: 6px solid #96C7D8;
+    outline: 2px dashed #ffffff;
+    outline-offset: -4px;
+}
+.body-path-item-bus{
+	width: 280px;
+	height: 42px;
+	align-items: center;
+	display: flex;
+}
+.body-path-item-text{
+	text-align: center;
+}
+.body-path-item-busimg{
+	margin: 10px;
+}
+.item1{
+	border-left: 1px solid #ffffff;
+	flex:1;
+}
+.item2{
+	flex:  0 0 70px;
+align-items: center;
+	
+}
+.item3{
+	flex:  0 0 80px;
+	font-size: 10px;
+	align-items: center;
+}
+.body-title-item{
+	font-size: 12px;
+	color: #607a90;
+	text-align: center;
+	height:15px;
+	border-left: 1px solid #FFFFFF;
+}
+a{
+	margin-right: 6px;
+   color: blue;
+ 	font-size: 13px;
+ }
+ .fa-cloud:before{
+ 	width: 90%;
+ 	height: 90%;
+ }
